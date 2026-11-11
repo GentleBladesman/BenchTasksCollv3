@@ -1,0 +1,20 @@
+# Final Pool
+
+This directory collects tasks that have been fully implemented in the
+BenchTasksCollv3 project.
+
+An implemented task must satisfy all requirements documented in
+tasks/examples/example-task on the main branch:
+
+- A task_config.json at the task root containing a non-empty
+  needed_mcp_servers field and a non-empty needed_local_tools field
+  that includes claim_done.
+- A docs/ directory containing task.md, agent_system_prompt.md and
+  user_system_prompt.md.
+- An evaluation/ directory with main.py.
+- A preprocess/ directory with main.py.
+
+After the latest tracker review, every task in the project was found to
+still be missing task_config.json, so no tasks are marked as implemented
+at this time. The directory is reserved for future use; fully
+implemented tasks will be copied here as they become available.
